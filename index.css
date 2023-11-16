@@ -1,0 +1,46 @@
+body {
+    background-color:hsl(220, 15%, 55%) ;
+    font-family: outfit;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+background-color: hsl(0, 0%, 100%);
+display: flex;
+flex-direction: column;
+width:35%;
+margin: auto;
+padding: 1em;
+border-radius: 1rem;
+text-align: center;
+}
+
+.container > img {
+    border-radius: 1rem;
+}
+
+.qr-text > h1  {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.qr-text > p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.credits {
+    display: flex;
+    width: 100%;
+    font-size: smaller;
+    height: 3rem;
+}
